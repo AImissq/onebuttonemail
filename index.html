@@ -48,6 +48,9 @@
         <button name="submit" type="submit" value="submit" class="btn btn-lg btn-success" tabindex="4">Send <i class="icon-arrow-right"></i></button>
 
       </form>
+      <p class="credit">
+        Created by <a href="http://twitter.com/innovati" title="@innovati on Twitter">@innovati</a> &middot; hosted on <a href="http://github.com/tomhodgins/onebuttonemail" title="OneButton Emailer on GitHub">Github</a>
+      </p>
     </section>
   </main>
 
@@ -147,12 +150,27 @@
 
     #emailer form button {
       display: block;
-      margin: 0 auto;
+      margin: 20px auto 0 auto;
       outline: none !important;
     }
 
     #sentalert {
       display: none;
+    }
+
+    p.credit {
+      margin: 20px 0 0 0;
+      text-align: center;
+      color: #999;
+      font-size: 8pt;
+    }
+    
+    p.credit a {
+      color: #777;
+    }
+    
+    p.a:hover {
+      color: #555;
     }
 
     /* Responsive Styles Affecting Browsers 0-480 Pixels Wide (smartphones) */
