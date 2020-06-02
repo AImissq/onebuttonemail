@@ -26,3 +26,5 @@ It likely is working. Just because an email is sent out doesn't mean it will be 
 Me too, I just haven't built it yet. The PHPmailer project right here on Github looks like it is a giant improvement over PHP's mail() function, but I haven't had the time to dig into that. Here's the link in case you want to check it out for yourself: https://github.com/PHPMailer/PHPMailer
 
 Best of luck, and happy hacking!
+
+Edit by ackroydAI - the mailer can also be seen here https://aiindustries.ml/?contact-AIindustries%2FE-mail
